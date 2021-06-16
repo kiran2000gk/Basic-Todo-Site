@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-color: bisque;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 50;
+  font-family: "Train One", cursive;
+  margin: 16px 0 50px;
+  text-align: center;
+}
+
+.styling {
+  font-weight: 800;
+  color: red;
+}
+
+.inputdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inputdiv .input {
+  padding: 8px 16px;
+  height: 50px;
+  outline: none;
+  border: none;
+
+  width: 550px;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 25px;
+}
+
+.addButton {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  font-size: 25px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  color: lime;
+  opacity: 0.7;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.item {
+  padding: 8px;
+  width: 550px;
+  margin-right: 50px;
+  margin-bottom: 24px;
+  border-bottom: 4px solid greenyellow;
+}
+
+.item_input {
+  background: none;
+  outline: none;
+  border: none;
+  width: 300px;
+  font-size: 24px;
+}
+
+.removebutton {
+  font-size: 18px;
+  /* margin: 0 4px; */
+  font-family: "Train One", cursive;
+  background: none;
+  outline: none;
+  border: 0.25px solid white;
+  border-radius: 25px;
+  /* padding: 5px; */
+  height: 40px;
+  width: 110px;
+  color: red;
+  cursor: pointer;
+}
